@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "module": "commonjs",

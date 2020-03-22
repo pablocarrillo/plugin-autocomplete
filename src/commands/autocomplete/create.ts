@@ -98,7 +98,8 @@ ${this.zshFunctionsDir}
 $fpath
 );
 autoload -Uz compinit;
-compinit;\n`
+# Add -u flag so it does not prompt about insecure paths
+compinit -u;\n`
   }
 
   private get commands(): CommandCompletion[] {
